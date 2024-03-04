@@ -268,7 +268,7 @@ const PersonalDetails = props => {
                 <TouchableOpacity onPress={processWallet}>
                   <View style={styles.walletInnerContainer}>
                     <Icon name="credit-card" style={styles.walletIcon} />
-                    <Text style={styles.walletAmount}>${walletAmount}</Text>
+                    <Text style={styles.walletAmount}> {walletAmount} MRU</Text>
                   </View>
                 </TouchableOpacity>
               </View>
